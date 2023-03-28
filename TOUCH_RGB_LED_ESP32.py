@@ -2,9 +2,9 @@ from machine import TouchPad, Pin, PWM
 import time
 
 # Set up the RGB LED pins and touch sensor pins
-red_pin = PWM(Pin(14))
+red_pin = PWM(Pin(12))
 green_pin = PWM(Pin(13))
-blue_pin = PWM(Pin(12))
+blue_pin = PWM(Pin(14))
 touch_pad = TouchPad(Pin(4))
 
 # Set a threshold value for the touch sensor
